@@ -24,7 +24,7 @@ In this sheet, an additional territorial level is included (Mulhaya), and the to
 ◽ Residency Permits: Breaks down the total number of individuals into different administrative situations. Each column represents an administrative status.
 ◽ Demographic Breakdown of Migrant Population: Breaks down the total number of individuals into three categories: adult men, adult women, and minors.
 
-- Nationalities 
+🟡 Nationalities 
 In this sheet, the total data is disaggregated by Mulhaya into the nationalities of the registered migrant population. Reference columns for the region (Region1) and subregion (Region2) are also included.
 
 # 2️⃣ TRANSFORMING DATA with Python 🐍
