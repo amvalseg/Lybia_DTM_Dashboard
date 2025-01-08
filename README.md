@@ -1,6 +1,12 @@
 # Lybia: Internal Displacements and Needs Asseessment Dashboard 🌐
 
-This is a BI project based on DTM (Displacement Tracking Matric) IOM API.
+This is a BI project based on open-source data from the Internacional Organisation for Migration's Displacement Tracking Matric (IOM DTM).
+
+In 2016, the International Organization for Migration (IOM) launched the Displacement Tracking Matrix (DTM) in Libya to address critical gaps in data and analysis related to migration and internal displacement. Having reliable, data-driven insights is essential for policymakers and practitioners to make informed decisions on migration and displacement issues within the country.
+
+The DTM has become a key resource for understanding migration patterns to, from, and within Libya. Through mobility tracking, flow monitoring, emergency tracking, rapid humanitarian needs assessments, and in-depth research, the DTM provides comprehensive evidence to support effective programming. Data is collected regularly through a network of 90 field enumerators and over 2,200 key informants across Libya. This work contributes to evidence-based program development and is closely aligned with the efforts of the Project Development Support Unit.
+
+For further information, consult here:[DTM Lybia](https://libya.iom.int/displacement-tracking-matrix-and-research. "DTM Lybia")
 
 # 1️⃣ Getting Data 🖥️
 
@@ -38,7 +44,11 @@ With this in mind, the following transformations are carried out:
 - Unnecessary columns are removed.  
 - By selecting specific columns from the original dataset, six independent datasets are created: one for each column group and one for geographic information. All datasets share the index.
 
-👀 Once the independent datasets are created, a reshape operation is required for each of them using the **unpivot** process. This transformation converts the column names into values within a single column, while their corresponding values are aggregated into a single total value column.
+### 👀  For each dataset, the following transformations are applied as needed:
+
+- Once the independent datasets are created, a reshape operation is required for each of them using the **unpivot** process. This transformation converts the column names into values within a single column, while their corresponding values are aggregated into a single total value column.
+- Value replacement: In cases where excessively long values or spelling errors are identified.
+- Column renaming: To ensure naming consistency across different datasets.
 
 👉 Notebook: notebooks/Transformations_Lybia project.ipynb
 
