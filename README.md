@@ -63,7 +63,8 @@ The fact tables are derived from splitting the original dataset: **needs**, **ad
 
 The dimension table, **geo**, is connected to all the fact tables through one-to-many relationships.  
 
-![image](https://github.com/user-attachments/assets/27fa8533-e2ec-4914-83f3-18b3a0898406)
+![image](![image](https://github.com/user-attachments/assets/fba7a8e2-6745-4669-9177-e0a470bdabbb)
+)
 
 As for the measures, since this is a descriptive dashboard, only three measures are created to calculate the total number of migrants by region.
 
