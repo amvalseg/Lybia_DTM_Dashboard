@@ -33,7 +33,7 @@ In this sheet, an additional territorial level is included (Mulhaya), and the to
 🟡 Nationalities 
 In this sheet, the total data is disaggregated by Mulhaya into the nationalities of the registered migrant population. Reference columns for the region (Region1) and subregion (Region2) are also included.
 
-# 2️⃣ TRANSFORMING DATA with Python 🐍
+# 2️⃣ Transforming Data with Python 🐍
 
 After analyzing the dataset structure, the decision was made to focus the analysis on the information contained in the "Mulhaya Main" sheet.
 
