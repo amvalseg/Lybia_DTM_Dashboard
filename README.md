@@ -1,6 +1,6 @@
 # Lybia: Internal Displacements and Needs Asseessment Dashboard 🌐
 
-This is a BI project based on open-source data from the Internacional Organisation for Migration's Displacement Tracking Matrix (IOM DTM): [Lybia DTM Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDI5MmFjODQtMDYwNy00OGQwLTkyNDYtM2JiODk5ZDI1ZWIyIiwidCI6ImFhMjRkMzA4LTBkOWUtNDY5NS1hMjZmLTc1NDU5NDM0MmUxYiIsImMiOjl9)
+This is a BI project based on open-source data from the Internacional Organisation for Migration's Displacement Tracking Matrix (IOM DTM): [Lybia DTM Dashboard](https://app.powerbi.com/reportEmbed?reportId=88bbac55-7f73-49fb-b500-fbb41154e543&autoAuth=true&ctid=aa24d308-0d9e-4695-a26f-754594342e1b)
 
 In 2016, the International Organization for Migration (IOM) launched the Displacement Tracking Matrix (DTM) in Libya to address critical gaps in data and analysis related to migration and internal displacement. Having reliable, data-driven insights is essential for policymakers and practitioners to make informed decisions on migration and displacement issues within the country.
 
