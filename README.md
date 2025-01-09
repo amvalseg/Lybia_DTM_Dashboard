@@ -13,7 +13,7 @@ For further information, consult here:[DTM Lybia](https://libya.iom.int/displace
 We access data from the Dataset IOM website [](https://dtm.iom.int/datasets/libya-migrants-baseline-assessment-round-54).
 This dataset is not available via API, so we have to download it.
 
-👇 The .xlsx file has the following sheets:
+👇 The [.xlsx file](https://github.com/amvalseg/Lybia_DTM_Dashboard/blob/main/data/DTM_Libya_R54_Migrant_Dataset_PUBLIC.xlsx) has the following sheets:
 
 🟡 Summary
 In this sheet, various tables are presented with aggregations and percentage calculations based on the dataset (Regions, Nationalities, Accommodation, Demographics, Needs...).
@@ -50,7 +50,25 @@ With this in mind, the following transformations are carried out:
 - Value replacement: In cases where excessively long values or spelling errors are identified.
 - Column renaming: To ensure naming consistency across different datasets.
 
-👉 Notebook: notebooks/Transformations_Lybia project.ipynb
+👉 Notebook: [notebooks/Transformations_Lybia project.ipynb](https://github.com/amvalseg/Lybia_DTM_Dashboard/blob/main/notebook/Transformations_Lybia%20project.ipynb)
 
 Then, we are redy to work in Power BI ‼️
+
+
+# 3️⃣ Dimensional Modeling in Power BI
+
+For this project, a simple data modeling approach is implemented in Power BI. The main feature of this project is the presence of multiple fact tables sharing a single dimension table.  
+
+The fact tables are derived from splitting the original dataset: **needs**, **adminsit**, **shelter**, **arrivaltime**, and **demographics**.  
+
+The dimension table, **geo**, is connected to all the fact tables through one-to-many relationships.  
+
+![image](https://github.com/user-attachments/assets/27fa8533-e2ec-4914-83f3-18b3a0898406)
+
+As for the measures, since this is a descriptive dashboard, only three measures are created to calculate the total number of migrants by region.
+
+Additionally, the "Priority Level" parameter is created to efficiently manage the filtering of the needs and associated issues table based on the priority levels assigned by the interviewed individuals.
+
+
+I hope you find this project interesting. Feel free to reach out and share your thoughts!
 
